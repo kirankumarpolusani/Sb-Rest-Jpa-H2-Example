@@ -8,6 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 
 // Interface extending CrudRepository
-public interface DepartmentRepository
-        extends CrudRepository<Department, Long> {
+public interface DepartmentRepository extends CrudRepository<Department, Long> {
 }
